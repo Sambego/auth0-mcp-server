@@ -83,7 +83,7 @@ program
   .description('Initialize the server (authenticate and configure)')
   .option(
     '--client <client>',
-    'Configure specific client (claude, windsurf, cursor, or vscode)',
+    'Configure specific client (claude, windsurf, cursor, vscode or gemini)',
     'claude'
   )
   .option(
