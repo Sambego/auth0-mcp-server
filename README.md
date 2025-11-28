@@ -82,7 +82,6 @@ npx @auth0/auth0-mcp-server init --client windsurf
 
 Step 1:
 
-
 [![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=auth0&config=eyJjb21tYW5kIjoibnB4IC15IEBhdXRoMC9hdXRoMC1tY3Atc2VydmVyIHJ1biIsImNhcGFiaWxpdGllcyI6WyJ0b29scyJdLCJlbnYiOnsiREVCVUciOiJhdXRoMC1tY3AifX0%3D)
 
 Step 2:
@@ -114,6 +113,20 @@ The command will prompt you to choose your preferred scope and automatically con
 
 ```bash
 npx @auth0/auth0-mcp-server init --client vscode --tools 'auth0_list_*,auth0_get_*' --read-only
+```
+
+**Gemini CLI**
+
+Initialize the gemini MCP server for the Gemini CLI
+
+```bash
+npx @auth0/auth0-mcp-server init --client gemini
+```
+
+Install the Gemini Extension
+```
+gemini extensions install https://github.com/auth0/auth0-mcp-server
+
 ```
 
 **Other MCP Clients**
