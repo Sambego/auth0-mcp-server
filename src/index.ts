@@ -111,6 +111,15 @@ program
     ['*']
   )
   .option('--read-only', 'Only expose read-only tools (list and get operations)', false)
+  .option(
+    '--interaction',
+    'Prompt the user for any interaction, and open the browser to authenticate automatically',
+    true
+  )
+  .option(
+    '--no-interaction',
+    "Don't prompt the user for any interaction, and open the browser to authenticate automatically"
+  )
   .action(init);
 
 // Run command
