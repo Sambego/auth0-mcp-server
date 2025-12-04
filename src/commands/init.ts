@@ -21,6 +21,7 @@ export interface InitOptions {
   auth0Domain?: string;
   auth0ClientId?: string;
   auth0ClientSecret?: string;
+  interaction?: boolean;
 }
 
 /**
@@ -157,7 +158,7 @@ const init = async (options: InitOptions): Promise<void> => {
     // Handle scope resolution
     const selectedScopes = await resolveScopes(options.scopes);
 
-    await requestAuthorization(selectedScopes);
+    await requestAuthorization(selectedScopes, options.interaction);
   }
 
   // Configure the requested client

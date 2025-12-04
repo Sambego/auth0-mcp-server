@@ -1,6 +1,7 @@
 {
   "name": "auth0-gemini-cli-extension",
   "version": "1.0.0",
+  "contextFileName": "./GEMINI.md",
   "mcpServers": {
     "auth0": {
       "command": "npx",
