@@ -124,6 +124,7 @@ npx @auth0/auth0-mcp-server init --client gemini
 ```
 
 Install the Gemini Extension
+
 ```
 gemini extensions install https://github.com/auth0/auth0-mcp-server
 
