@@ -27,7 +27,7 @@ function getConfig(selectedScopes?: string[]) {
   };
 }
 
-async function requestAuthorization(selectedScopes?: string[], interaction?: boolean) {
+async function requestAuthorization(selectedScopes?: string[], interaction: boolean = true) {
   const config = getConfig(selectedScopes);
   const body: any = {
     client_id: config.clientId,
