@@ -113,6 +113,7 @@ async function configureClient(clientType: ClientType, options: InitOptions): Pr
  *   - client: The target client type to configure ('claude', 'windsurf', 'cursor', 'vscode' or 'gemini)
  *   - scopes: Optional scope patterns for authorization (will prompt if omitted)
  *   - tools: Tool patterns to enable (e.g., ['auth0_list_*'])
+ *   - (no-)interaction: Should the CLI prompt the user to press return to open the browser
  *
  * @returns {Promise<void>} A promise that resolves when initialization is complete
  *
