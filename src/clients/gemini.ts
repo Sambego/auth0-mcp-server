@@ -16,7 +16,6 @@ export class GeminiClientManager extends BaseClientManager {
     super({
       clientType: 'gemini',
       displayName: 'Gemini CLI',
-      capabilities: ['tools'],
     });
   }
 
