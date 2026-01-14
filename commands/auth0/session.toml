@@ -1,4 +1,4 @@
 description = "Check if there is a valid authentication session available."
 prompt = """
-Run this command to check if there's a valid session for the Auth0 MCP Server, and show it's details: !{npx @auth0/auth0-mcp-server session}, after it has successfully been executed, refresh the MCP servers using the !{/mcp refresh} command.
+Run this command to check if there's a valid session for the Auth0 MCP Server, and show it's details: !{npx @auth0/auth0-mcp-server session}.
 """
