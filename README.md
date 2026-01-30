@@ -353,6 +353,9 @@ This will start the device authorization flow, allowing you to log in to your Au
 > [!NOTE]
 > Using the MCP Server will consume Management API rate limits according to the subscription plan. Refer to the [Rate Limit Policy](https://auth0.com/docs/troubleshoot/customer-support/operational-policies/rate-limit-policy) for more information.
 
+> [!TIP]
+> Using the `--no-interaction` flag skips the user interaction (press return) to open the browser during setup. This can be usefull if the MCP server is initiated in certain environments like an AI Agent.
+
 ### Session Management
 
 To see information about your current authentication session:
